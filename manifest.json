@@ -1,0 +1,50 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "RemoveBG",
+      "identifier": "remove-bg",
+      "script": "./removeBG.js"
+    },
+    {
+      "name": "Set API Key",
+      "identifier": "setKey",
+      "script": "./set_API_Key.js"
+    },
+    {
+      "name": "Log out",
+      "identifier": "logout",
+      "script": "./logout.js"
+    },
+    {
+      "name": "Checking Credits",
+      "identifier": "balance",
+      "script": "./checkingCreditBalance.js"
+    },
+    {
+      "name": "upscale",
+      "identifier": "upscale",
+      "script": "./upscale.js"
+    },
+    {
+      "name": "support",
+      "identifier": "support",
+      "script": "./support.js"
+    }
+  ],
+  "menu": {
+    "title": "Picsart Plugin",
+    "items": [
+      "remove-bg",
+      "upscale",
+      "-",
+      "setKey",
+      "logout",
+      "balance",
+      "-",
+      "support"
+    ]
+  }
+}
