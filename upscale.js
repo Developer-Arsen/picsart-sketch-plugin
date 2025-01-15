@@ -82,7 +82,7 @@ export default async function() {
 
   try {
     UI.message("Checking API Key...");
-    const response = await fetch('https://api.picsart.io/tools/1.0/upscale', {
+    const response = await fetch('https://api.picsart.io/tools/1.0/sketch/upscale', {
       method: 'POST',
       headers: {
         'X-Picsart-API-Key': apiKey,
