@@ -11,6 +11,7 @@ function getApiKey() {
   }
 }
 
+
 async function removeBackground(apiKey, imageData, selectedLayer) {
   const formData = new FormData();
   formData.append('image', {

@@ -11,6 +11,7 @@ function getApiKey() {
   }
 }
 
+
 export default async function() {
   const selectedLayers = sketch.getSelectedDocument().selectedLayers;
 
