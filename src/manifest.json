@@ -24,7 +24,7 @@
       "script": "./checkingCreditBalance.js"
     },
     {
-      "name": "upscale",
+      "name": "Enhance / Upscale",
       "identifier": "upscale",
       "script": "./upscale.js"
     },
@@ -35,7 +35,7 @@
     }
   ],
   "menu": {
-    "title": "Picsart Plugin",
+    "title": "BG Remover & Image Enhancer by Picsart",
     "items": [
       "remove-bg",
       "upscale",
