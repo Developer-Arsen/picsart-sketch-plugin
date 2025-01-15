@@ -86,6 +86,7 @@ export default async function() {
       method: 'POST',
       headers: {
         'X-Picsart-API-Key': apiKey,
+        'X-Picsart-Plugin': "Sketch"
       },
       body: formData,
     });
