@@ -2,6 +2,7 @@ import sketch from 'sketch';
 const UI = sketch.UI;
 
 
+
 const getCreditBalance = async () => {
     const apiKey = sketch.Settings.settingForKey('api-key');
     const url = "https://api.picsart.io/tools/1.0/balance";
@@ -9,7 +10,7 @@ const getCreditBalance = async () => {
         const response = await fetch(url, {
             method: 'GET',
             headers: {
-                'X-Picsart-API-Key': apiKey
+                'X-Picsart-API-Key': `Bearer ${apiKey}`
             }
         });
         if (!response.ok) {
