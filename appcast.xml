@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+ <channel>
+  <title>Picsart Background Remover and Image Enhancer</title>
+  <link>https://github.com/PicsArt/picsart-sketch-plugin/releases/download/v1.0.0/appcast.xml</link>
+  <description>Elevate your Sketch designs with the Picsart Plugin: effortlessly remove backgrounds from product photos, cars, furniture, jewelry, and more, and upscale images by up to 8x per side (64x resolution). Achieve clean, high-quality visuals directly in Sketch with AI-powered tools that streamline your creative process.</description>
+  <language>en</language>
+  <item>
+   <title>Picsart Sketch Plugin v1.0.0</title>
+   <description>Initial release of the Picsart API Plugin, featuring background removal and image enhancement.</description>
+   <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
+   <enclosure 
+    url="https://github.com/PicsArt/picsart-sketch-plugin/releases/download/v1.0.0/PicsArt-picsart-sketch-plugin-fa4b9cf.tar.gz" 
+    sparkle:version="1.0.0" />
+  </item>
+ </channel>
+</rss>
