@@ -1,8 +1,6 @@
 import sketch from 'sketch';
 const { UI, Settings } = sketch;
 
-
-
 function promptForApiKey() {
   return new Promise((resolve, reject) => {
     UI.getInputFromUser(

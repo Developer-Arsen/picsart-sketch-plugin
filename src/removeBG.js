@@ -21,10 +21,11 @@ async function removeBackground(apiKey, imageData, selectedLayer) {
 
   try {
     UI.message("Checking API Key...");
-    const response = await fetch('https://api.picsart.io/tools/1.0/removebg', {
+    const response = await fetch('https://api.picsart.io/tools/1.0/sketch/removebg', {
       method: 'POST',
       headers: {
         'X-Picsart-API-Key': apiKey,
+        'X-Picsart-Plugin': "Sketch"
       },
       body: formData,
     });
