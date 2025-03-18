@@ -19,7 +19,6 @@ const run = () => {
   };
   
   const checkNodeVersion = () => {
-    console.log(process.version);
     const nodeVersion = parseVersion(process.version)[0];
     if (nodeVersion < requiredNodeVersion) {
       throw new Error(
